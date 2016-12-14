@@ -1,4 +1,4 @@
-package consoleVersion;
+package 10Steps;
 
 /*
  * A variant of an academic project put forth by Professor Edwin Rodriguez of Cal Poly Pomona, this is a 
