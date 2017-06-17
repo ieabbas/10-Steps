@@ -15,8 +15,21 @@ package consoleVersion;
  */
 
 /*
- * This class will hold any message that is outputted by the game to the user.
+ * This class will hold any message that is printed out by the game to the user.
  */
 
 public class UI {
+
+	protected void welcomeMessage() {
+		System.out.println("Welcome to 10 Steps!");
+	}
+
+	protected void setTheScene() {
+		System.out.println(
+				"\nHere you are, an adventurer knee deep in water, and as much treasure as you \ncan manage stuffed into your backpack. You've done your research on the cave, \nyou've seen the footage of explorers falling to their deaths, and you've played \nenough Tomb Raider to know that success is near. You can see the light, and you \nare only 10 steps away from the entrance to this cave. Here you go, as you notice \nsome weapons you left on the floor when you entered the cave so that you \ncould carry more treasure, but you hear things shifting in the darkness...");
+	}
+
+	protected void endMessage() {
+		System.out.println("Tha-Tha-Tha-Tha-That's all folks! The game is over!");
+	}
 }
