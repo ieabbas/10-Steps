@@ -17,13 +17,33 @@ package consoleVersion;
 /*
  * This class will control the behavior of the Gun object, including various instantiations of different kinds of guns
  */
+@SuppressWarnings("unused")
 public class Gun {
 
 	private String type;
 	private int damage;
-	// private
+	private double accuracy;
 
-	public Gun(String t, int d) {
-		// switch
+	public Gun(String t) {
+		// check for type and change attributes based off string, no validation
+		// yet
+		switch (t) {
+		case "pistol":
+			damage = 10;
+			accuracy = .80;
+			break;
+		case "shotgun":
+			damage = 40;
+			accuracy = .30;
+			break;
+		case "rifle":
+			damage = 25;
+			accuracy = 50;
+			break;
+		default:
+			System.out.println("Invalid gun type, try again my friend.");
+			break;
+		}
+
 	}
 }
