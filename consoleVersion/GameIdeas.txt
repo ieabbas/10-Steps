@@ -1,0 +1,3 @@
+6/17/2017
+- Difficulties will dictate chances of enemy spawning (simple number adjusting for console, slightly different for GUI)
+- Consider making skeleton of game with no powerups so basic mechanics can be fleshed out
