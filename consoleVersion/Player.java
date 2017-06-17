@@ -14,6 +14,7 @@ package consoleVersion;
  * Creator: ieabbas
  */
 
+
 /*
  * This class aims to establish the Player within the game, as well as the various attributes the character will have.
  */
