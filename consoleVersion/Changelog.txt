@@ -1,2 +1,4 @@
 6/17/2017
-\btest\b
+- Added basic Player and Gun class attributes
+- Created switch logic to govern what kind of weapon is created from the string passed in
+- Experimented with Thread.sleep() times so the player can read the intro lore before getting too bored
