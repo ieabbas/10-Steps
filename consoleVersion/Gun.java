@@ -40,6 +40,9 @@ public class Gun {
 			damage = 25;
 			accuracy = 50;
 			break;
+		case "hands":
+			damage = 1000;
+			accuracy = 100;
 		default:
 			System.out.println("Invalid gun type, try again my friend.");
 			break;
